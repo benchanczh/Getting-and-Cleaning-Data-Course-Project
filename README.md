@@ -43,4 +43,4 @@ Mag is replaced by Magnitude
 
 BodyBody is replaced by Body
 
-##11.Creates a second,independent tidy data set and ouput it
+##11.Creates a second,independent tidy data set and ouput it as "tidydata.txt"
