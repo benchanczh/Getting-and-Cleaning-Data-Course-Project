@@ -7,15 +7,15 @@ This is the course project for the Getting and Cleaning Data Coursera course. Th
 
 ###3.unzipped files are in the folderUCI HAR Dataset.
 
-Values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
+  * Values of Varible Activity consist of data from “Y_train.txt” and “Y_test.txt”
 
-Values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
+  * Values of Varible Subject consist of data from “subject_train.txt” and subject_test.txt"
 
-Values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
+  * Values of Varibles Features consist of data from “X_train.txt” and “X_test.txt”
 
-Names of Varibles Features come from “features.txt”
+  * Names of Varibles Features come from “features.txt”
 
-Levels of Varible Activity come from “activity_labels.txt”
+  * Levels of Varible Activity come from “activity_labels.txt”
 
 ###4.Read data from the files into the variables
 
@@ -31,16 +31,16 @@ Levels of Varible Activity come from “activity_labels.txt”
 
 ###10.In the former part, variables activity and subject and names of the activities have been labelled using descriptive names.In this part, Names of Feteatures will labelled using descriptive variable names.
 
-prefix t is replaced by time
+  * prefix t is replaced by time
 
-Acc is replaced by Accelerometer
+  * Acc is replaced by Accelerometer
 
-Gyro is replaced by Gyroscope
+  * Gyro is replaced by Gyroscope
 
-prefix f is replaced by frequency
+  * prefix f is replaced by frequency
 
-Mag is replaced by Magnitude
+  * Mag is replaced by Magnitude
 
-BodyBody is replaced by Body
+  * BodyBody is replaced by Body
 
-##11.Creates a second,independent tidy data set and ouput it as "tidydata.txt"
+###11.Creates a second,independent tidy data set and ouput it as "tidydata.txt"
