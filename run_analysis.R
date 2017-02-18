@@ -69,9 +69,6 @@ names(Data)<-gsub("BodyBody", "Body", names(Data))
 
 # Create a second, independent tidy data set with the average of each variable for each activity and each subject
 library(plyr)
-Data2<-aggregate(. ~Subject + Activity, Data, mean)
-Data2<-Data2[order(Data2$Subject,Data2$Activity),]
-write.table(Data2, file = "tidydata2.txt",row.name=FALSE)
-# Produce Codebook
-library(knitr)
-rmarkdown::render("codebook.Rmd")
+Data2 <- aggregate(. ~Subject + Activity, Data, mean)
+Data2 <- Data2[order(Data2$Subject, Data2$Activity),]
+write.table(Data2, file = "tidydata.txt",row.name=FALSE)
